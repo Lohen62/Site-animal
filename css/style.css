@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(180, 6, 6);
+    width: 100vw;
+    margin: 0;
+    padding:0;
+}
+
+#myDIV{
+    width: 100vw;
+    height: 80%;
+  font-size: 25px;
+}
+.styleBurger {
+    display: none;
+}
+
+#boutonBurger{
+    margin-top: 0.5vh;
+    margin-left: 1vw;
+    height: 5vh;
+    width: 12vw;
+    background-color: rgb(255, 166, 0);
+    color: red;
+}
+#lephénix{
+    margin: 0;
+    font-size: 5vh;
+    position: absolute;
+    top: 0;
+    right: 20vw;
+    color:#B1A688;
+}
+
+#listHeader li  {
+    list-style-type: none;
+    font-size: 5vh;
+    margin-top: 5vh;
+   
+}
+a{
+text-decoration: none;
+font-size: 2vh;
+color:rgb(0, 0, 0);
+}
+.main{
+    width:100vw;
+}
+.main p{
+    color:#000000;
+}
+#PhoenixAcceuil{
+    margin-top: 1vh;
+    width: 100vw;;
+    height: 30vh;
+}
+h2,h3{
+    text-align: center;
+    color: rgb(255, 166, 0);
+    margin-top:0;
+    
+}
+
+.foot{
+width: 99.5vw;
+height: 20vh;
+display: flex;
+border: 1px solid rgb(214, 7, 7);
+color:rgb(0, 0, 0);
+}
+.contact{
+    width: 50vw;
+}
+.apropos {
+    width: 50vw;
+
+}
+.foot h3{
+    margin:0;
+    font-size: 2.5vh;
+    
+}
+
+.image{
+    width:100vw;
+}
+
+
+
+
+
