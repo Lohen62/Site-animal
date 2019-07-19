@@ -1,11 +1,14 @@
 <?php $title="Galerie"?>
  <?php include("inc/header.php"); ?>
 
- <main class=".main"> 
+ <main class="main"> 
 
  <?php
-$files = glob('img/galerie/*.gif');
-foreach($files as $filename){echo $filename;}
+$files = glob('img/galerie/*.{jpg,png}',GLOB_BRACE);
+
+
+foreach($files as $filename)
+{echo '<img  src='.$filename.' alt="des images de phoenix" class="imgdtruck" >';}
 
 ?> 
 

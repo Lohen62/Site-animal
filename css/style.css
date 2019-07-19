@@ -37,14 +37,17 @@ body{
     margin-top: 5vh;
    
 }
+
 a{
 text-decoration: none;
 font-size: 2vh;
 color:rgb(0, 0, 0);
 }
+
 .main{
     width:100vw;
 }
+
 .main p{
     color:#000000;
 }
@@ -57,7 +60,7 @@ h2,h3{
     text-align: center;
     color: rgb(255, 166, 0);
     margin-top:0;
-    
+  
 }
 
 .foot{
@@ -77,14 +80,18 @@ color:rgb(0, 0, 0);
 .foot h3{
     margin:0;
     font-size: 2.5vh;
-    
+ 
 }
 
-.image{
-    width:100vw;
+.imgdtruck{
+    margin-left: 0.7vw;
+    margin-top:5vh;
+    width: 48vw;
+    height: 22vh;
+    border: 2px solid black;
 }
 
-
-
-
-
+#formulaire{
+    text-align: center;
+    height: 80vh;
+}

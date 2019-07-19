@@ -1,10 +1,6 @@
 <?php $title="Contact"?>
  <?php include("inc/header.php"); ?>
 
- <main> 
-
-
-
- </main>
+<?php include("inc/form.php"); ?>
 
  <?php include("inc/footer.php"); ?>
